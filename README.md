@@ -42,8 +42,6 @@ En general, el dataset posee 15 archivos csv con 500 filas cada uno y comparten 
 - Fecha y lugar del incidente.
 - Involucrados, tanto heridos como muertos.
 
-[Este queda para después porque es mucho más denso, está catalogado en más archivos separados con parámetros adicionales]
-
 ## The Washington Post Fatal Force | Police Shootings
 Fuente: https://www.kaggle.com/ekrembayar/the-washington-post-fatal-force-police-shootings
 
