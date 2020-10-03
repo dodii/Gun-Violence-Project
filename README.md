@@ -35,8 +35,12 @@ El dataset posee aproximadamente 230.000 filas y 29 columnas con la siguiente in
 ## Gun Violence Database
 Fuente: https://www.kaggle.com/gunviolencearchive/gun-violence-database
 
-Similar al dataset "Gun Violence Data".
-- Gun violence database has 500 rows per csv, there are aprox. 15 of them.
+Similar al dataset "Gun Violence Data", pero con múltiples archivos ya separados según el tipo de víctimas (adolescentes o niños)
+o el tipo incidentes (con muertos o heridos accidentales, incidentes con policías involucrados, tiroteos masivos, etc).
+
+En general, el dataset posee 15 archivos csv con 500 filas cada uno y comparten las mismas 7 columnas, con información como:
+- Fecha y lugar del incidente.
+- Involucrados, tanto heridos como muertos.
 
 [Este queda para después porque es mucho más denso, está catalogado en más archivos separados con parámetros adicionales]
 
