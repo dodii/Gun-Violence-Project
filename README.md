@@ -47,7 +47,9 @@ Dataset proveniente de la base de datos del periódico estadounidense The Washin
 información relacionada a todos los tiroteos con consecuencias fatales perpetrados por oficiales de policía estadounidenses
 ocurridos desde el 1 de enero del 2015 hasta la fecha. Fue actualizado por última vez (en Kaggle) en agosto del 2020.
 
-El dataset posee aproximadamente 5500 filas y 14 columnas, con la siguiente información:
+El dataset posee aproximadamente 5500 filas y 14 columnas, y es muy similar al dataset "US Police Shootings".
+
+Contiene la siguiente información:
 - Datos personales de la persona asesinada.
 - Fecha y lugar del incidente.
 - El nivel de amenaza que representaba la víctima para la vida de los demás.
