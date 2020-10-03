@@ -1,6 +1,9 @@
 # Gun-Violence-Project
 Repository for the CC5206 course project.
 
+1° milestone report:
+https://www.overleaf.com/1747153243wrtcztdfygzd
+
 Initial datasets:
 - https://www.kaggle.com/ahsen1330/us-police-shootings
 - https://www.kaggle.com/jameslko/gun-violence-data
@@ -13,6 +16,4 @@ Details of each one:
 - Gun violence database has 500 rows per csv, there are aprox. 15 of them.
 - The Washington Post fatal force police shootings has 5500 rows aprox.
 
-Report:
-https://www.overleaf.com/1747153243wrtcztdfygzd
 
