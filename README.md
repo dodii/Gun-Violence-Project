@@ -55,3 +55,9 @@ Contiene la siguiente información:
 - El nivel de amenaza que representaba la víctima para la vida de los demás.
 - La manera en que murió la víctima.
 
+# Colaboradores
+- Vicente Ardiles / Ephyy
+- Cristóbal Jaramillo / JaramilloCris
+- Rodrigo Oportot / dodii
+- Francisco Molina / Pancho9494
+
