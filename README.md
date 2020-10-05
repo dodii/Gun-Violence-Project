@@ -1,6 +1,9 @@
 # Gun-Violence-Project
 Repositorio para el proyecto del curso CC5206 Introducción a la Minería de Datos.
 
+# Hito 1
+La primera etapa del proyecto consiste en la exploración inicial de los datos elegidos para el proyecto.
+
 Informe del primer hito:
 https://www.overleaf.com/1747153243wrtcztdfygzd
 
