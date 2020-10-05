@@ -60,6 +60,5 @@ Contiene la siguiente información:
 # Colaboradores
 - Vicente Ardiles / Ephyy
 - Cristóbal Jaramillo / JaramilloCris
-- Rodrigo Oportot / dodii
 - Francisco Molina / Pancho9494
-
+- Rodrigo Oportot / dodii
