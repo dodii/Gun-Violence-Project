@@ -4,7 +4,7 @@ Repositorio para el proyecto del curso CC5206 Introducción a la Minería de Dat
 Con la exploración y el respectivo análisis de los datos, se busca generar nueva información para abordar
 problemas como el racismo, la brutalidad y corrupción policíaca, la magnitud de la violencia presente
 en los incidentes armados estadounidenses, entre muchas otras cuestiones que vayan surgiendo a medida
-que el proyecto progresa.
+que el proyecto progrese.
 
 # Hito 1
 La primera etapa del proyecto consiste en la exploración inicial de los datos elegidos para el proyecto.
