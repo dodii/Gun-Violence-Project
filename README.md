@@ -2,7 +2,9 @@
 Repositorio para el proyecto del curso CC5206 Introducción a la Minería de Datos.
 
 El enfoque del proyecto, explicado de una manera muy simplificada, consiste en trabajar los datasets
-descritos en la sección siguiente del documento. Con la exploración y el respectivo análisis de los datos, 
+descritos en la sección siguiente del documento. 
+
+Mediante la exploración y el respectivo análisis de los datos, 
 se busca relacionar los tres grandes ejes de datasets para generar nueva información, con el fin de abordar problemas 
 como el racismo, la brutalidad y corrupción policíaca, la magnitud de la violencia presente
 en los incidentes armados estadounidenses, la desigualdad e inequidad existente en la educación entre los distintos estados 
