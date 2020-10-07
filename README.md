@@ -81,6 +81,9 @@ Dataset con la información del número de prisioneros por estado a lo largo de 
 de crímenes cometidos en total en tales estados. Contiene 3 archivos en formato CSV. La información fue recopilada de
 organizaciones como la Oficina de Estadísticas de Justicia (Bureau of Justice Statistics') de EE.UU.
 
+Las dimensiones del dataset rondan entre 18-20 columnas, dos de los datasets poseen alrededor de 50 filas y el otro posee
+aproximadamente 950 filas.
+
 Crime and Incarceration by State:
 - Dataset con el número de encarcelados por estado y la cantidad y tipos de crímenes, según año, entre 2001 a 2017.
 
@@ -91,6 +94,8 @@ UCR by State:
 - Total de crímenes reportados por el FBI en EE.UU por estado, entre 2001 y 2017.
 
 ## Datasets de educación en EE.UU
+
+
 
 ### U.S. Educational Finances
 Fuente: https://www.kaggle.com/noriuk/us-educational-finances
