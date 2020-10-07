@@ -77,6 +77,19 @@ Contiene la siguiente información:
 ### Crime and Incarceration in the United States
 Fuente: https://www.kaggle.com/christophercorrea/prisoners-and-crime-in-united-states
 
+Dataset con la información del número de prisioneros por estado a lo largo de los años, junto con el número y tipo
+de crímenes cometidos en total en tales estados. Contiene 3 archivos en formato CSV. La información fue recopilada de
+organizaciones como la Oficina de Estadísticas de Justicia (Bureau of Justice Statistics') de EE.UU.
+
+Crime and Incarceration by State:
+- Dataset con el número de encarcelados por estado y la cantidad y tipos de crímenes, según año, entre 2001 a 2017.
+
+Prison Custody by State:
+- Total de prisioneros en custodia
+
+UCR by State:
+- Total de crímenes reportados por el FBI en EE.UU por estado, entre 2001 y 2017.
+
 ## Datasets de educación en EE.UU
 
 ### U.S. Educational Finances
