@@ -95,10 +95,26 @@ UCR by State:
 
 ## Datasets de educación en EE.UU
 
-
-
 ### U.S. Educational Finances
 Fuente: https://www.kaggle.com/noriuk/us-educational-finances
+
+Posee información relacionada a las finanzas invertidas en educación primaria y secundaria en EE.UU por estado, con 
+sus respectivos resultados académicos para 4° y 8° grado en exámenes de matemáticas y de lectura durante las últimas 
+décadas. La información proviene de la oficina del censo estadounidense (United States Census Bureau) y de la asesoría
+nacional del progreso educacional (National Assessment of Educational Progress / NAEP).
+
+Contiene varios archivos en formato CSV, con un amplio abanico de información. En detalle, podemos ver los siguientes 
+archivos:
+
+Districts:
+- Contiene los ingresos y gastos en varias materias en relación a educación por cada distrito escolar según año.
+
+States:
+- Contiene un resumen del total de ingresos y gastos por estado, organizados por año.
+
+Naep:
+- Resultados del rendimiento escolar en los exámenes de matemáticas y lectura por el total de alumnos en 4° y 8°
+grado por estado, en una selección de años específicos.
 
 
 # Colaboradores
