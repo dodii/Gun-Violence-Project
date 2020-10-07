@@ -14,6 +14,8 @@ https://www.overleaf.com/1747153243wrtcztdfygzd
 
 # Datasets iniciales y sus detalles
 
+## Datasets de tiroteos e incidentes armados en EE.UU
+
 ## US police shootings
 Fuente: https://www.kaggle.com/ahsen1330/us-police-shootings
 
@@ -25,7 +27,7 @@ Posee aproximadamente 5000 filas y 15 columnas, con información como:
 - Armas involucradas el asunto.
 - Presencia de cámara corporal (gopro o body cameras) en los oficiales de policía involucrados en el incidente.
 
-## Gun Violence Data
+### Gun Violence Data
 Fuente: https://www.kaggle.com/jameslko/gun-violence-data
 
 Contiene información de incidentes armados en EE.UU entre enero del 2013 y marzo del 2018. La información encontrada en Kaggle 
@@ -40,7 +42,7 @@ El dataset posee aproximadamente 230.000 filas y 29 columnas con la siguiente in
 - Información del incidente como las armas portadas, los disparos y los tipos de heridas en las víctimas.
 - Información personal de los perpetradores y/o participantes, así como las víctimas del incidente.
 
-## Gun Violence Database
+### Gun Violence Database
 Fuente: https://www.kaggle.com/gunviolencearchive/gun-violence-database
 
 Similar al dataset "Gun Violence Data", pero con múltiples archivos ya separados según el tipo de víctimas (adolescentes o niños)
@@ -50,7 +52,7 @@ En general, el dataset posee 15 archivos csv con 500 filas cada uno y comparten 
 - Fecha y lugar del incidente.
 - Involucrados, tanto heridos como muertos.
 
-## The Washington Post Fatal Force | Police Shootings
+### The Washington Post Fatal Force | Police Shootings
 Fuente: https://www.kaggle.com/ekrembayar/the-washington-post-fatal-force-police-shootings
 
 Dataset proveniente de la base de datos del periódico estadounidense The Washington Post, que busca compilar en un solo lugar 
@@ -64,6 +66,19 @@ Contiene la siguiente información:
 - Fecha y lugar del incidente.
 - El nivel de amenaza que representaba la víctima para la vida de los demás.
 - La manera en que murió la víctima.
+
+## Datasets de crímenes en EE.UU
+
+### Crime and Incarceration in the United States
+Fuente: https://www.kaggle.com/christophercorrea/prisoners-and-crime-in-united-states
+
+
+
+## Datasets de educación en EE.UU
+
+### U.S. Educational Finances
+Fuente: https://www.kaggle.com/noriuk/us-educational-finances
+
 
 # Colaboradores
 - Vicente Ardiles / Ephyy
