@@ -1,13 +1,17 @@
 # Gun-Violence-Project
 Repositorio para el proyecto del curso CC5206 Introducción a la Minería de Datos.
 
-Con la exploración y el respectivo análisis de los datos, se busca generar nueva información para abordar
-problemas como el racismo, la brutalidad y corrupción policíaca, la magnitud de la violencia presente
-en los incidentes armados estadounidenses, entre muchas otras cuestiones que vayan surgiendo a medida
-que el proyecto progrese.
+El enfoque del proyecto, explicado de una manera muy simplificada, consiste en trabajar los datasets
+descritos en la sección siguiente del documento. Con la exploración y el respectivo análisis de los datos, 
+se busca relacionar los tres grandes ejes de datasets para generar nueva información, con el fin de abordar problemas 
+como el racismo, la brutalidad y corrupción policíaca, la magnitud de la violencia presente
+en los incidentes armados estadounidenses, la desigualdad e inequidad existente en la educación entre los distintos estados 
+de EE.UU y su correlación y repercusión con los conceptos anteriores, entre muchas otras cuestiones que vayan surgiendo a 
+medida que el proyecto progrese.
 
 # Hito 1
-La primera etapa del proyecto consiste en la exploración inicial de los datos elegidos para el proyecto.
+La primera etapa del proyecto consiste en la exploración inicial de los datos elegidos para el proyecto, junto con abordar
+las primeras preguntas y posibles hipótesis factibles de investigar con la información generada.
 
 Informe del primer hito:
 https://www.overleaf.com/1747153243wrtcztdfygzd
