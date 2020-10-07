@@ -16,7 +16,7 @@ https://www.overleaf.com/1747153243wrtcztdfygzd
 
 ## Datasets de tiroteos e incidentes armados en EE.UU
 
-## US police shootings
+### US police shootings
 Fuente: https://www.kaggle.com/ahsen1330/us-police-shootings
 
 Contiene datos de incidentes policiales con tiroteos en EE.UU.
@@ -71,8 +71,6 @@ Contiene la siguiente información:
 
 ### Crime and Incarceration in the United States
 Fuente: https://www.kaggle.com/christophercorrea/prisoners-and-crime-in-united-states
-
-
 
 ## Datasets de educación en EE.UU
 
