@@ -1,0 +1,109 @@
+# Script para analizar los tiroteos
+```{r}
+setwd("C:/Users/Dodi/Desktop/Semestre2020DCC/SEGUNDO_SEMESTRE/mineria/semester_project/Gun-Violence-Project/exploracion_tiroteos")
+
+library(dplyr)
+
+# Cargamos los datasets en cuestión
+
+us_police_shootings <- read.csv("US_police_shootings.csv")
+gva_dataset <- read.csv("gun-violence-data.csv")
+gun_allowance <- read.csv("permisividad.csv")
+```
+
+```{r}
+#Quitamos las columnas innecesarias de gva_dataset
+#son aquellas con las urls y los distritos electorales
+#y las de latitud y longitud, porque ya tenemos los datos del estado, ciudad
+#o condado.
+gva_dataset <- select(gva_dataset, -c(5, 8, 9, 10, 27, 28, 29))
+gva_dataset <- select(gva_dataset, -c(11, 13))
+```
+
+```{r}
+#us police shootings es igual a washington post, pero mejor formateado.
+#por lo que decidi matarlo nomas
+
+#por otro lado, los datos en N/A de la columna guns_involved seran transformados a #undetermined
+#las columnas con datos vacions seran rellenadas con valores indicativos del suceso.
+
+gva_dataset[c("n_guns_involved")][is.na(gva_dataset[c("n_guns_involved")])] <- "Undetermined"
+  
+gva_dataset[c("location_description")][gva_dataset[c("location_description")] == ""] <- "No description set"
+
+gva_dataset[c("notes")][gva_dataset[c("notes")] == ""] <- "No notes set"   
+
+
+```
+
+
+```{r}
+
+#proporciones estimadas de la población según el censo del 2019
+US_population = 328200000
+US_white_pop = US_population * 0.634 #excluding latinos and hispanics
+US_hispanicLatino_pop = US_population * 0.153
+US_black_pop = US_population * 0.134
+US_asian_pop = US_population * 0.059
+US_native_pop = US_population * 0.015
+
+#variables del dataset US_police_shootings
+total_incidentes <- nrow(us_police_shootings)
+total_incidentes
+
+#para ver el total de valores que la columna de etnia tiene
+unique(us_police_shootings$race)
+
+#la mayoria de los calificados con raza "other" (mas del 95%) suelen ser latinos hispanohablantes, asi que los moveremos a hispanics. Aparte los casos con "other" de raza son apenas 50, en comparación a los 5000 que tenemos.
+us_police_shootings$race <- replace(as.character(us_police_shootings$race), us_police_shootings$race == "Other", "Hispanic")
+
+```
+
+```{r}
+#df con las proporciones
+
+#primero, tomamos el total de incidentes por raza
+races <-  aggregate(id ~ race, us_police_shootings, function(x) length(unique(x)))
+
+#le cambiamos el nombre a la columna para identificarla mejor
+names(races)[2] <- "n_incidents"
+
+#comenzamos a crear el dataframe
+pops <- c(US_asian_pop,  US_black_pop, US_hispanicLatino_pop, US_native_pop, US_white_pop)
+
+#proporciones de la poblacion entera de US
+pop_proportions <- c(0.059, 0.134, 0.153, 0.015, 0.634)
+pop_by_race <- data.frame(races, pops, pop_proportions)
+pop_by_race
+
+#la proporcion de los incidentes en relacion al total de ellos
+pop_by_race <- transform(pop_by_race, proportion_shot = races$n_incidents/total_incidentes)
+
+#por ultimo, una columna con los valores normalizados de los tiroteos en funcion de las proporciones de la población, en valores de porcentaje
+pop_by_race <- transform(pop_by_race, normalized_shot_proportions = proportion_shot / pop_proportions) 
+
+pop_by_race
+
+# barplot para las distintas etnias asesinadas en tiroteos policiales, normalizado según el total de población para cada etnia.
+
+library(ggplot2)
+
+df_graph <- ggplot(data=pop_by_race, aes(x=race, y=normalized_shot_proportions, color="race")) + geom_bar(stat="identity", fill="white") + theme_minimal()
+
+df_graph
+
+
+```
+
+```{r}
+#segun edad y sexo
+
+ggplot(us_police_shootings, aes(x=age, color=gender)) + geom_histogram(fill="black") + theme_minimal() + scale_x_continuous(breaks = seq(0, 90, by = 5))
+
+```
+
+
+
+
+
+
