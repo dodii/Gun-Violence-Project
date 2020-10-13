@@ -121,4 +121,5 @@ grado por estado, en una selección de años específicos.
 - Vicente Ardiles / Ephyy
 - Cristóbal Jaramillo / JaramilloCris
 - Francisco Molina / Pancho9494
+- Benjamín del Pino B. / benjamindpb
 - Rodrigo Oportot / dodii
