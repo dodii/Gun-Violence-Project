@@ -116,9 +116,25 @@ Naep:
 - Resultados del rendimiento escolar en los exámenes de matemáticas y lectura por el total de alumnos en 4° y 8°
 grado por estado, en una selección de años específicos.
 
+# Changelog 1.0 Hito 1
+
+## Datos sobre tiroteos
+- El dataset US Police Shootings resultaba ser una versión mejor formateado de Washington Post Fatal Force | Police Shootings, por
+lo que éste último fue descartado. Ambos diferían en 60 casos aproximadamente, que consistían en eventos ocurridos entre junio y julio
+de este año que el primer dataset, US Police Shootings, no poseía aún. Fueron omitidos ya que, por las dimensiones del proyecto, no eran
+imprescindibles. 
+- El dataset Gun Violence Database fue descartado ya que no poseía la información suficiente (en columnas) para extraer información interesante
+que los demás datasets no tuvieran de antemano.
+- El dataset Gun Violence Data está siendo formateado, quitándole columnas con información irrelevante para la exploración, como datos de url's 
+de noticieros y fuentes repetidas; esto porque la información ya está respaldada por la GVA. Entre otras columnas eliminadas, se encuentran las
+de distrito electoral, que no son necesarias porque ya incluye otras columnas indicando el estado y ciudad donde ocurrieron los incidentes.
+
+## Datos sobre educación y crimen general
+
 
 # Colaboradores
 - Vicente Ardiles / Ephyy
 - Cristóbal Jaramillo / JaramilloCris
 - Francisco Molina / Pancho9494
+- Benjamín del Pino B. / benjamindpb
 - Rodrigo Oportot / dodii
