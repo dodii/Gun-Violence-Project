@@ -36,9 +36,70 @@ gva_dataset[c("notes")][gva_dataset[c("notes")] == ""] <- "No notes set"
 
 ```
 
+```{r}
+
+### GVA PANCHO ###
+library(reshape)
+library(stringr) 
+population = read.csv("population-data.csv")
+population$state = str_to_title(tolower(population$state))
+population = population[c(2,1,3)]
+
+# gva_short es gva_dataset pero sólo las columnas date, state, n_injured y n_killed
+gva_short = select(gva_dataset, c(2:3,5:6))
+# Creamos las columnas yearMonth y year
+gva_short$date = as.Date(gva_short$date)
+gva_short$yearMonth = format(gva_short$date, format = "%Y-%m")
+gva_short$year = format(gva_short$date, format = "%Y")
+
+# gvaShortOrder es gva_short pero con las columnas reordenadas
+gvaShortOrder = select(gva_short,c(5,6,2,3,4))
+
+# Se suman los datos por año y estado
+top = aggregate(x = gvaShortOrder[c(4,5)],
+                FUN = sum,
+                by = list(year = gvaShortOrder$year, state = gvaShortOrder$state))
+
+# Se añade la columna de población
+top_by_population = merge(top,population)
+
+# Se rellena NA en state_population de New York el 2015 con el promedio del 2014 y el 2016
+top_by_population[top_by_population$year == 2015 & top_by_population$state == "New York",5] = 
+  (top_by_population[top_by_population$year == 2014 & top_by_population$state == "New York",][c(5)] +
+  top_by_population[top_by_population$year == 2016 & top_by_population$state == "New York",][c(5)]) / 2
+
+# Función que genera el gráfico
+top_maker = function(var,year){
+  title <- paste("[",year,"] Gun related deaths and injuries")
+  topPlot = melt(var, id = c("year","state","state_population"))
+  topPlot = topPlot[c(1,2,5,4,3)]
+  topPlot = topPlot[topPlot$year == year,]
+  topPlot = arrange(topPlot, -value/state_population)
+  
+  ggplot(topPlot, aes(x = State, y = Percentage_by_state_population))+
+    geom_bar(aes(x = reorder(state,value/state_population), y =value/state_population, fill = variable), stat = "identity", position = "dodge") +
+    ggtitle(title) + 
+    coord_flip()
+}
+
+# Llamado de la función
+top_maker(top_by_population,2015)
+
+# Por si se quiere top pero por año y mes en vez de año
+#test.sum <- aggregate(x = gvaShortOrder[c(4,5)],
+#                      FUN = sum,
+#                      by = list(date = gvaShortOrder$yearMonth, state = gvaShortOrder$state))
+
+
+```
+
+
+
+** US POLICE SHOOTINGS DODI **
 
 ```{r}
 
+########## US POLICE SHOOTINGS DODI #############
 #proporciones estimadas de la población según el censo del 2019
 US_population = 328200000
 US_white_pop = US_population * 0.634 #excluding latinos and hispanics
@@ -84,21 +145,36 @@ pop_by_race <- transform(pop_by_race, normalized_shot_proportions = proportion_s
 
 pop_by_race
 
+write.csv(pop_by_race, "C:/Users/Dodi/Desktop/Semestre2020DCC/SEGUNDO_SEMESTRE/mineria/semester_project/Gun-Violence-Project/exploracion_tiroteos/proportions_by_race.csv")
+
 # barplot para las distintas etnias asesinadas en tiroteos policiales, normalizado según el total de población para cada etnia.
 
 library(ggplot2)
 
-df_graph <- ggplot(data=pop_by_race, aes(x=race, y=normalized_shot_proportions, color="race")) + geom_bar(stat="identity", fill="white") + theme_minimal()
+df_graph <- ggplot(data=pop_by_race, aes(x=race, y=normalized_shot_proportions)) + geom_bar(stat="identity", fill="steelblue") + xlab("Raza") + ylab("Proporción comparativa") + ggtitle("Comparación de muertes de distintas razas disparadas \npor la policía en función de su proporción de población") + theme(plot.title = element_text(hjust=0.5))
 
 df_graph
 
+ggsave("df_graph.eps", scale = 1)
 
 ```
 
 ```{r}
 #segun edad y sexo
+#haremos un nuevo csv con los datos
+sex_age_df <- data.frame(us_police_shootings$gender, us_police_shootings$age)
+sex_age_df
+write.csv(sex_age_df, "C:/Users/Dodi/Desktop/Semestre2020DCC/SEGUNDO_SEMESTRE/mineria/semester_project/Gun-Violence-Project/exploracion_tiroteos/sex_age.csv")
 
-ggplot(us_police_shootings, aes(x=age, color=gender)) + geom_histogram(fill="black") + theme_minimal() + scale_x_continuous(breaks = seq(0, 90, by = 5))
+
+sex_graph <- ggplot(us_police_shootings, aes(x=age, color=gender)) + geom_histogram(fill="steelblue") + theme_minimal() + scale_x_continuous(breaks = seq(0, 90, by = 5)) + scale_fill_manual("Sexo") + xlab("Edad") + ylab("Total") + ggtitle("Número de muertos disparados por la policía según edad y sexo") + theme(plot.title = element_text(hjust =0.5))
+
+sex_graph
+
+#el outlier de 6 años es Jeremy Mardis, asesinado el 2015 por la policía.
+
+ggsave("sex_graph.png")
+
 
 ```
 
