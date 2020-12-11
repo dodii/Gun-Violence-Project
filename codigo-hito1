@@ -1,0 +1,38 @@
+#carga tablas
+crime <- read.csv("~/.../crime.csv")
+naep <- read.csv("~/.../naep.csv")
+ 
+# CRIMEN
+#se filtra para que los crimenes sean en el siglo XXI
+crime_sxxi <- crime %>$ filter(year>=2000)
+ 
+#ahora para cada año se genera una tabla de la sgte forma
+crime16 <- crime_sxxi %>% filter(year==2016) %>% select(year, jurisdiction, state_population, violent_crime_total, murder_manslaughter, prisoner_count)
+ 
+#se crea una nueva columna que representa la tasa de crimen
+#violento por cada 100.000 habitantes 
+crime16$tasa_crimen <- (crime16$violent_crime_total/crime16$state_population)*100000
+
+#y se ordena c/r a la tasa de menor a mayor
+crime16 <- crime16[order(crime16$tasa_crimen, decreasing = FALSE),]
+
+#graficas
+p <- ggplot(as.data.frame(crime16), aes(x=reorder(jurisdiction, -tasa_crimen), y=tasa_crimen))
+p <- p + xlab("Estados de EEUU") + ylab("Tasa de crimen")
+p <- p + ggtitle("Tasa de crimenes cada 100.000 habitantes en Estado de EEUU")
+p <- p + geom_bar(stat = "identity", position = "dodge")
+p <- p + coord_flip()
+p
+
+# NAEP
+#se filtran los resultados por año
+naep17 <- naep %>% filter(YEAR==2017 & STATE != "DoDEA")
+p2 <- ggplot(as.data.frame(naep17))
+#aqui se calcula el promedio de las pruebas y se ponen en el eje y
+p2 <- p2 + aes(x = reorder(STATE, AVG_SCORE), y = AVG_SCORE/2)
+p2 <- p2 + xlab("Estados de EEUU") + ylab("Promedio de las pruebas.")
+p2 <- p2 + ggtitle("Promedio de las pruebas de matemática y lecura realizadas por el NAEP en el año 2017.")
+p2 <- p2 + geom_bar(stat = "identity", fill = "steelblue") + coord_flip()
+p2
+
+

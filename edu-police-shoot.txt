@@ -1,0 +1,71 @@
+average scale score >= 270
+menos de 10 asesinatos
+
+2017:
+MA, NH, CT, VT, ID, ME, MN, 
+
+2015:
+NH, MA, VT, CT, MT, 
+
+
+Estados en que desde 2000-2017 (en intervalos de 2 años) los alumnos de 8vo grado han superado los 285avg de score en naep
+
+STATE	cantidad 	
+Minnesota 	9
+Montana 	9
+North Dakota 	8
+Massachusetts 	8
+Vermont 	8
+New Hampshire 	8
+----------------
+Virginia 	6
+New Jersey 	6
+South Dakota 	6
+Washington 	6
+Colorado 	6
+Wisconsin 	6
+Indiana 	6
+Wyoming 	6
+
+Desde el año 2000 los estados que mas se repiten con respecto a la menor cantidad total de crimen son ND, VT, NH... justamente los que tienen mayor avg score en las evaluaciones de naep
+Esto hace pensar que existe una correlacion entre los altos puntajes en las pruebas, es decir una mejor educacion (necesariamente?) y una menor cantidad de crimen.
+
+2009
+NAEP
++MA, NJ, VT, MI, NH, ND, MO, SD, CT, PN, WA, MR, KS, WY, OH
+-MS, CA, AL, NM, WV, LO, NV, HW, AR, OK, TN, SC, GE, RI, MC
+Crimen
++NV, SC, TN, DL, LO, AK, NM, FL, MR, AR, OK, MC, IL, MS, TX
+-MN, VT, NH, UT, SD, WY, VG, MI, ID, RI, KT, WI, OR, ND, HW
+
+2011
+NAEP
++MA, NJ, VT, MO, MI, NH, CO, CT, ND, SD, MR, MN, WY, KS, OH
+-MI, AL, LO, CA, WV, NM, TN, HW, NV, AR, AZ, OK, FL, GE, SC
+Crimen
++AK, TN, SC, NM, NV, DL, LO, FL, MR, AR, OK, MS, MC, MA, IL
+-MN, VT, UT, VG, ID, NH, WY, MI, KT, RI, ND, OR, WI, HW, NB
+
+2013
+NAEP
++MA, NJ, NH, VT, MI, WA, PN, MO, CO, MR, CT, WY, OH, ND, MN
+-MI, AL, NM, LO, WV, CA, OK, AR, NV, AZ, SC, HW, AK, TN, GE
+Crimen
++AK, NM, NV, TN, LO, SC, DL, MR, FL, AR, MC, OK, MS, AL, AZ
+-VT, MN, VG, WY, KT, ID, NH, UT, MI, OR, HW, RI, CT, NB, IW
+
+2015
+NAEP
++MA, NH, MI, VT, NJ, WI, MO, CT, NB, UT, WY, IN, ND, IW, VG
+-MI, LO, NM, AL, WV, AR, CA, NV, SC, HW, OK, FL, AK, GE, NC
+Crimen
++AK, NV, NM, TN, LO, AR, SC, DL, MS, AL, FL, MR, CA, OK, MC
+-VT, MN, VG, NH, ID, CT, KT, WY, UT, ND, RI, MI, NJ, OR, NB
+
+NAEP 2017
++MA, NH, NJ, MI, VT, WA, IN, VG, WY, WI, NB, CT, CO, OH, PN
+-LO, NM, AL, MI, WV, AR, SC, AK, NV, OK, HW, CA, TN, DL, TX
+Crimen 2016
++AK, NM, NV, TN, LO, AR, AL, MS, DL, SC, MR, AZ, MC, OK, CA 
+-MN, VT, NH, VG, CT, ID, KT, RI, HW, MI, UT, NJ, WY, ND, OR
+
