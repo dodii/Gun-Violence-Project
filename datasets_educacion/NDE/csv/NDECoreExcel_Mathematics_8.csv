@@ -1,0 +1,613 @@
+Year,Jurisdiction,All students,Average scale score
+2017,Alabama,All students,268.312020240893
+2017,Alaska,All students,277.015571755108
+2017,Arizona,All students,282.248145284054
+2017,Arkansas,All students,273.75990725281
+2017,California,All students,276.638200063835
+2017,Colorado,All students,286.247717546748
+2017,Connecticut,All students,284.144330330682
+2017,Delaware,All students,278.023498869959
+2017,District of Columbia,All students,265.779770573735
+2017,Florida,All students,279.120415156315
+2017,Georgia,All students,281.035487532394
+2017,Hawaii,All students,277.336845826814
+2017,Idaho,All students,284.371732938877
+2017,Illinois,All students,281.617997668016
+2017,Indiana,All students,287.705639463898
+2017,Iowa,All students,286.239418158172
+2017,Kansas,All students,285.283507884924
+2017,Kentucky,All students,277.714161796085
+2017,Louisiana,All students,266.506760283641
+2017,Maine,All students,284.003007342022
+2017,Maryland,All students,280.910245611123
+2017,Massachusetts,All students,297.0422252108
+2017,Michigan,All students,279.505454699336
+2017,Minnesota,All students,293.962375743927
+2017,Mississippi,All students,270.91490754267
+2017,Missouri,All students,280.596021606445
+2017,Montana,All students,285.600436850241
+2017,Nebraska,All students,288.405955332178
+2017,Nevada,All students,275.365455514069
+2017,New Hampshire,All students,293.290654433387
+2017,New Jersey,All students,291.698552399307
+2017,New Mexico,All students,269.374084020303
+2017,New York,All students,281.687999953596
+2017,North Carolina,All students,281.926028447068
+2017,North Dakota,All students,288.172322165675
+2017,Ohio,All students,287.714266317975
+2017,Oklahoma,All students,274.688883411113
+2017,Oregon,All students,282.173028442268
+2017,Pennsylvania,All students,286.393832326288
+2017,Rhode Island,All students,277.180125645798
+2017,South Carolina,All students,274.67382111862
+2017,South Dakota,All students,286.376159534544
+2017,Tennessee,All students,278.777735468651
+2017,Texas,All students,282.320510342396
+2017,Utah,All students,286.816559110458
+2017,Vermont,All students,287.62338824063
+2017,Virginia,All students,290.081407427647
+2017,Washington,All students,289.131257183192
+2017,West Virginia,All students,273.415853633933
+2017,Wisconsin,All students,288.143144315469
+2017,Wyoming,All students,288.761811740442
+2015,Alabama,All students,266.555318518065
+2015,Alaska,All students,280.493456179845
+2015,Arizona,All students,282.919489420654
+2015,Arkansas,All students,275.064756412469
+2015,California,All students,275.324573012154
+2015,Colorado,All students,285.539188724412
+2015,Connecticut,All students,283.956677264342
+2015,Delaware,All students,279.810243773994
+2015,District of Columbia,All students,263.059776256545
+2015,Florida,All students,275.323817958749
+2015,Georgia,All students,278.711796774375
+2015,Hawaii,All students,279.340145034503
+2015,Idaho,All students,283.742325345327
+2015,Illinois,All students,281.968567276813
+2015,Indiana,All students,287.175201077669
+2015,Iowa,All students,286.41621998599
+2015,Kansas,All students,283.871096311731
+2015,Kentucky,All students,277.947260135803
+2015,Louisiana,All students,268.432355132751
+2015,Maine,All students,284.875476957911
+2015,Maryland,All students,283.149034098785
+2015,Massachusetts,All students,296.908571436848
+2015,Michigan,All students,278.168651923457
+2015,Minnesota,All students,294.147777973073
+2015,Mississippi,All students,270.580479347121
+2015,Missouri,All students,280.821425670635
+2015,Montana,All students,287.464005517244
+2015,Nebraska,All students,286.498563486228
+2015,Nevada,All students,275.171868843271
+2015,New Hampshire,All students,294.413018726344
+2015,New Jersey,All students,293.36593817877
+2015,New Mexico,All students,270.897534405553
+2015,New York,All students,280.089220069279
+2015,North Carolina,All students,281.331091062317
+2015,North Dakota,All students,288.244147214039
+2015,Ohio,All students,285.061955059169
+2015,Oklahoma,All students,274.58598213814
+2015,Oregon,All students,282.814899352646
+2015,Pennsylvania,All students,283.668415444349
+2015,Rhode Island,All students,281.445219579398
+2015,South Carolina,All students,275.827866191395
+2015,South Dakota,All students,284.64140569224
+2015,Tennessee,All students,278.203380665353
+2015,Texas,All students,283.793540280437
+2015,Utah,All students,286.116911188659
+2015,Vermont,All students,290.355191159079
+2015,Virginia,All students,287.709298675278
+2015,Washington,All students,286.513107597489
+2015,West Virginia,All students,271.45070884715
+2015,Wisconsin,All students,289.077749211995
+2015,Wyoming,All students,286.666547067471
+2013,Alabama,All students,269.194280616502
+2013,Alaska,All students,281.559572836526
+2013,Arizona,All students,279.722267962505
+2013,Arkansas,All students,277.914802456258
+2013,California,All students,275.901350652197
+2013,Colorado,All students,289.68180010958
+2013,Connecticut,All students,285.243972274119
+2013,Delaware,All students,282.338298596548
+2013,District of Columbia,All students,265.259365712508
+2013,Florida,All students,280.855839554008
+2013,Georgia,All students,279.179110912454
+2013,Hawaii,All students,281.412922288425
+2013,Idaho,All students,286.413881629757
+2013,Illinois,All students,284.897647164169
+2013,Indiana,All students,287.767653833023
+2013,Iowa,All students,285.07013777479
+2013,Kansas,All students,289.518256078135
+2013,Kentucky,All students,280.64544247635
+2013,Louisiana,All students,272.760966478426
+2013,Maine,All students,288.731159737956
+2013,Maryland,All students,286.641381102957
+2013,Massachusetts,All students,300.568235011147
+2013,Michigan,All students,280.133597093752
+2013,Minnesota,All students,294.592972603507
+2013,Mississippi,All students,271.160967287249
+2013,Missouri,All students,282.988457911702
+2013,Montana,All students,289.228453008852
+2013,Nebraska,All students,285.061348473454
+2013,Nevada,All students,278.28668090862
+2013,New Hampshire,All students,295.665123344221
+2013,New Jersey,All students,296.053351131027
+2013,New Mexico,All students,272.761808894229
+2013,New York,All students,281.807787831651
+2013,North Carolina,All students,285.645388424867
+2013,North Dakota,All students,290.515111260981
+2013,Ohio,All students,289.528096752185
+2013,Oklahoma,All students,275.506732026577
+2013,Oregon,All students,283.524589064024
+2013,Pennsylvania,All students,289.623651633339
+2013,Rhode Island,All students,284.092212214805
+2013,South Carolina,All students,279.824608578537
+2013,South Dakota,All students,287.270390625653
+2013,Tennessee,All students,277.720127269641
+2013,Texas,All students,288.198967599188
+2013,Utah,All students,284.331486246838
+2013,Vermont,All students,295.469562357463
+2013,Virginia,All students,288.142959517699
+2013,Washington,All students,289.956988743835
+2013,West Virginia,All students,274.430134697899
+2013,Wisconsin,All students,288.745780841654
+2013,Wyoming,All students,288.119137263578
+2011,Alabama,All students,269.09651583719
+2011,Alaska,All students,283.2727978671
+2011,Arizona,All students,279.033501713793
+2011,Arkansas,All students,279.088205018109
+2011,California,All students,272.769803091291
+2011,Colorado,All students,291.7426728709
+2011,Connecticut,All students,286.999944694085
+2011,Delaware,All students,282.769966403216
+2011,District of Columbia,All students,260.46687784992
+2011,Florida,All students,277.837035214102
+2011,Georgia,All students,278.483619188656
+2011,Hawaii,All students,277.836211052583
+2011,Idaho,All students,286.675063250389
+2011,Illinois,All students,283.228134687939
+2011,Indiana,All students,285.00291608665
+2011,Iowa,All students,284.920836058704
+2011,Kansas,All students,289.61928267474
+2011,Kentucky,All students,281.608809706829
+2011,Louisiana,All students,272.843333892634
+2011,Maine,All students,288.732297636602
+2011,Maryland,All students,287.997802255227
+2011,Massachusetts,All students,298.512431105164
+2011,Michigan,All students,280.176517968298
+2011,Minnesota,All students,294.946422810345
+2011,Mississippi,All students,269.235645624753
+2011,Missouri,All students,281.947646246654
+2011,Montana,All students,292.907804277033
+2011,Nebraska,All students,283.197044839966
+2011,Nevada,All students,278.113153726165
+2011,New Hampshire,All students,292.10873973776
+2011,New Jersey,All students,294.138771366004
+2011,New Mexico,All students,274.454701456959
+2011,New York,All students,280.453026092986
+2011,North Carolina,All students,286.267028242857
+2011,North Dakota,All students,291.998404485775
+2011,Ohio,All students,288.602596832439
+2011,Oklahoma,All students,279.179608185009
+2011,Oregon,All students,282.518206779261
+2011,Pennsylvania,All students,286.102741735941
+2011,Rhode Island,All students,282.875659622898
+2011,South Carolina,All students,281.000133716553
+2011,South Dakota,All students,290.61519679044
+2011,Tennessee,All students,274.038710319906
+2011,Texas,All students,290.346709355265
+2011,Utah,All students,283.308332086503
+2011,Vermont,All students,293.882577068531
+2011,Virginia,All students,289.255411153431
+2011,Washington,All students,288.107761945489
+2011,West Virginia,All students,273.263173122564
+2011,Wisconsin,All students,288.665932686223
+2011,Wyoming,All students,287.767926048951
+2009,Alabama,All students,268.524120315168
+2009,Alaska,All students,283.047662800849
+2009,Arizona,All students,277.332281962623
+2009,Arkansas,All students,275.999499994013
+2009,California,All students,270.448588146426
+2009,Colorado,All students,287.372907515934
+2009,Connecticut,All students,288.608513451696
+2009,Delaware,All students,283.829472979958
+2009,District of Columbia,All students,253.595186871272
+2009,Florida,All students,279.33526411278
+2009,Georgia,All students,277.561199732371
+2009,Hawaii,All students,273.758606683625
+2009,Idaho,All students,287.305215052426
+2009,Illinois,All students,282.431416992088
+2009,Indiana,All students,286.809977886735
+2009,Iowa,All students,284.170178554705
+2009,Kansas,All students,288.596403041255
+2009,Kentucky,All students,279.284216093787
+2009,Louisiana,All students,272.379906697646
+2009,Maine,All students,286.361425938805
+2009,Maryland,All students,288.341565298202
+2009,Massachusetts,All students,298.854346618482
+2009,Michigan,All students,278.268168151681
+2009,Minnesota,All students,294.443320106986
+2009,Mississippi,All students,265.001958154729
+2009,Missouri,All students,285.808001946777
+2009,Montana,All students,291.542942879491
+2009,Nebraska,All students,284.259093531038
+2009,Nevada,All students,274.148541684888
+2009,New Hampshire,All students,292.321817220053
+2009,New Jersey,All students,292.657227109585
+2009,New Mexico,All students,269.704253797704
+2009,New York,All students,282.576915418605
+2009,North Carolina,All students,284.332635252336
+2009,North Dakota,All students,292.842488544915
+2009,Ohio,All students,285.583013784517
+2009,Oklahoma,All students,275.711956830545
+2009,Oregon,All students,285.036814371216
+2009,Pennsylvania,All students,288.304168923925
+2009,Rhode Island,All students,277.92371937219
+2009,South Carolina,All students,280.380855413571
+2009,South Dakota,All students,290.619127707892
+2009,Tennessee,All students,274.761821088186
+2009,Texas,All students,286.685076683873
+2009,Utah,All students,284.068251870422
+2009,Vermont,All students,292.866096352356
+2009,Virginia,All students,286.069754986907
+2009,Washington,All students,288.722375608773
+2009,West Virginia,All students,270.415765915327
+2009,Wisconsin,All students,288.140726236317
+2009,Wyoming,All students,286.10403398533
+2007,Alabama,All students,266.000109919931
+2007,Alaska,All students,282.557154120707
+2007,Arizona,All students,275.548426408372
+2007,Arkansas,All students,273.89986215628
+2007,California,All students,270.381784005669
+2007,Colorado,All students,286.192756166341
+2007,Connecticut,All students,282.472790062009
+2007,Delaware,All students,282.992082743316
+2007,District of Columbia,All students,248.198742417967
+2007,Florida,All students,277.383497256758
+2007,Georgia,All students,274.778664644925
+2007,Hawaii,All students,268.772013351933
+2007,Idaho,All students,283.507595771493
+2007,Illinois,All students,280.497096028329
+2007,Indiana,All students,285.007210900174
+2007,Iowa,All students,285.226903146597
+2007,Kansas,All students,290.032599829257
+2007,Kentucky,All students,278.704749914375
+2007,Louisiana,All students,272.386299598469
+2007,Maine,All students,286.472253115987
+2007,Maryland,All students,285.734265236821
+2007,Massachusetts,All students,297.923344483955
+2007,Michigan,All students,276.830517083696
+2007,Minnesota,All students,291.85111653854
+2007,Mississippi,All students,264.890918700127
+2007,Missouri,All students,280.619538285703
+2007,Montana,All students,287.075528953695
+2007,Nebraska,All students,283.650598646173
+2007,Nevada,All students,270.804024374923
+2007,New Hampshire,All students,287.557060954994
+2007,New Jersey,All students,288.583451449458
+2007,New Mexico,All students,267.538078662633
+2007,New York,All students,280.141177237476
+2007,North Carolina,All students,283.880668759806
+2007,North Dakota,All students,291.561611918756
+2007,Ohio,All students,284.851639473941
+2007,Oklahoma,All students,274.534989354995
+2007,Oregon,All students,283.826277204194
+2007,Pennsylvania,All students,286.16686332577
+2007,Rhode Island,All students,275.386990471622
+2007,South Carolina,All students,281.503601480921
+2007,South Dakota,All students,288.463925271604
+2007,Tennessee,All students,273.978786623685
+2007,Texas,All students,285.870708420456
+2007,Utah,All students,281.087473705525
+2007,Vermont,All students,291.010773791979
+2007,Virginia,All students,287.625904963882
+2007,Washington,All students,284.862804344983
+2007,West Virginia,All students,270.084093587271
+2007,Wisconsin,All students,285.617942521924
+2007,Wyoming,All students,286.987771483089
+2005,Alabama,All students,262.211100048323
+2005,Alaska,All students,278.958709394219
+2005,Arizona,All students,274.305090048274
+2005,Arkansas,All students,271.636348366415
+2005,California,All students,268.558128581435
+2005,Colorado,All students,280.824007310133
+2005,Connecticut,All students,281.068953005311
+2005,Delaware,All students,280.95354283122
+2005,District of Columbia,All students,245.215780768922
+2005,Florida,All students,274.04837689748
+2005,Georgia,All students,272.191564411022
+2005,Hawaii,All students,265.629319114115
+2005,Idaho,All students,280.966896649599
+2005,Illinois,All students,277.672238913307
+2005,Indiana,All students,281.714945536305
+2005,Iowa,All students,283.810928831672
+2005,Kansas,All students,284.030053484553
+2005,Kentucky,All students,273.983027164396
+2005,Louisiana,All students,267.755030846034
+2005,Maine,All students,281.058540918142
+2005,Maryland,All students,277.930794576753
+2005,Massachusetts,All students,291.5135411152
+2005,Michigan,All students,277.346681960374
+2005,Minnesota,All students,290.074995791089
+2005,Mississippi,All students,262.456242710419
+2005,Missouri,All students,276.44993926095
+2005,Montana,All students,286.432001216413
+2005,Nebraska,All students,283.9629910353
+2005,Nevada,All students,269.905585503685
+2005,New Hampshire,All students,285.2533570362
+2005,New Jersey,All students,283.902604236295
+2005,New Mexico,All students,263.275162986677
+2005,New York,All students,279.716253699868
+2005,North Carolina,All students,281.825136586578
+2005,North Dakota,All students,286.960953441317
+2005,Ohio,All students,283.251774708647
+2005,Oklahoma,All students,271.359902408679
+2005,Oregon,All students,282.237325362273
+2005,Pennsylvania,All students,280.713835066326
+2005,Rhode Island,All students,272.345018074323
+2005,South Carolina,All students,281.23432113535
+2005,South Dakota,All students,287.303617983357
+2005,Tennessee,All students,270.524576784271
+2005,Texas,All students,281.102845047493
+2005,Utah,All students,279.156123426792
+2005,Vermont,All students,287.356487616841
+2005,Virginia,All students,284.371628221298
+2005,Washington,All students,285.052229728136
+2005,West Virginia,All students,269.099492803301
+2005,Wisconsin,All students,284.541556582959
+2005,Wyoming,All students,282.100609598155
+2003,Alabama,All students,261.939022225118
+2003,Alaska,All students,279.025069865231
+2003,Arizona,All students,271.177350478914
+2003,Arkansas,All students,265.771589343076
+2003,California,All students,267.049500585455
+2003,Colorado,All students,283.399858481467
+2003,Connecticut,All students,283.729811207579
+2003,Delaware,All students,277.158368932433
+2003,District of Columbia,All students,243.059638247651
+2003,Florida,All students,271.371490239171
+2003,Georgia,All students,269.677009232403
+2003,Hawaii,All students,265.728581015081
+2003,Idaho,All students,279.939266837246
+2003,Illinois,All students,277.160080956322
+2003,Indiana,All students,281.220939756711
+2003,Iowa,All students,283.953344744355
+2003,Kansas,All students,284.191088052303
+2003,Kentucky,All students,274.278472166639
+2003,Louisiana,All students,266.328359269062
+2003,Maine,All students,281.903773320764
+2003,Maryland,All students,277.71611251074
+2003,Massachusetts,All students,286.52069448017
+2003,Michigan,All students,276.441861597672
+2003,Minnesota,All students,290.680055978624
+2003,Mississippi,All students,260.911933580199
+2003,Missouri,All students,278.766250348876
+2003,Montana,All students,285.928022552419
+2003,Nebraska,All students,282.193755965696
+2003,Nevada,All students,268.04313771367
+2003,New Hampshire,All students,286.198468660005
+2003,New Jersey,All students,281.407119904536
+2003,New Mexico,All students,263.272906651625
+2003,New York,All students,279.749257044273
+2003,North Carolina,All students,281.240350571106
+2003,North Dakota,All students,287.14464048292
+2003,Ohio,All students,281.607295379003
+2003,Oklahoma,All students,271.905151347835
+2003,Oregon,All students,280.892470910844
+2003,Pennsylvania,All students,278.537758124922
+2003,Rhode Island,All students,271.998694378475
+2003,South Carolina,All students,277.300449617316
+2003,South Dakota,All students,284.881736383978
+2003,Tennessee,All students,268.175728562365
+2003,Texas,All students,277.052648954338
+2003,Utah,All students,280.64536966117
+2003,Vermont,All students,285.6455721843
+2003,Virginia,All students,281.676643366069
+2003,Washington,All students,281.151364414263
+2003,West Virginia,All students,270.770353447282
+2003,Wisconsin,All students,283.915865654494
+2003,Wyoming,All students,283.50334994463
+2000,Alabama,All students,262.15820551985
+2000,Alaska,All students,�
+2000,Arizona,All students,270.715405900397
+2000,Arkansas,All students,261.363712665471
+2000,California,All students,262.171026590943
+2000,Colorado,All students,�
+2000,Connecticut,All students,281.902485561834
+2000,Delaware,All students,�
+2000,District of Columbia,All students,234.428798057957
+2000,Florida,All students,�
+2000,Georgia,All students,266.332047317995
+2000,Hawaii,All students,262.772560543574
+2000,Idaho,All students,277.917913542907
+2000,Illinois,All students,276.909459049332
+2000,Indiana,All students,283.051229255175
+2000,Iowa,All students,�
+2000,Kansas,All students,283.679619149647
+2000,Kentucky,All students,271.561511404378
+2000,Louisiana,All students,258.98200182432
+2000,Maine,All students,283.641703580061
+2000,Maryland,All students,276.014360058913
+2000,Massachusetts,All students,283.123245551255
+2000,Michigan,All students,278.452666707407
+2000,Minnesota,All students,287.651942187297
+2000,Mississippi,All students,254.033900269054
+2000,Missouri,All students,273.575780410819
+2000,Montana,All students,286.584607021488
+2000,Nebraska,All students,280.618068695496
+2000,Nevada,All students,268.18159911998
+2000,New Hampshire,All students,�
+2000,New Jersey,All students,�
+2000,New Mexico,All students,259.844673042444
+2000,New York,All students,276.262858771617
+2000,North Carolina,All students,280.127947198885
+2000,North Dakota,All students,283.073844051673
+2000,Ohio,All students,282.672753528445
+2000,Oklahoma,All students,271.645793898218
+2000,Oregon,All students,280.640222797324
+2000,Pennsylvania,All students,�
+2000,Rhode Island,All students,273.425785095558
+2000,South Carolina,All students,266.353699525282
+2000,South Dakota,All students,�
+2000,Tennessee,All students,263.436599688201
+2000,Texas,All students,274.846015943346
+2000,Utah,All students,275.436709934551
+2000,Vermont,All students,283.408381447859
+2000,Virginia,All students,276.674991537432
+2000,Washington,All students,�
+2000,West Virginia,All students,270.780076291355
+2000,Wisconsin,All students,�
+2000,Wyoming,All students,276.68998034322
+1996,Alabama,All students,256.594863207309
+1996,Alaska,All students,277.643071449619
+1996,Arizona,All students,267.874834337364
+1996,Arkansas,All students,261.652745252938
+1996,California,All students,262.772478440845
+1996,Colorado,All students,275.608214245213
+1996,Connecticut,All students,279.591244854912
+1996,Delaware,All students,266.733673323772
+1996,District of Columbia,All students,232.831509532896
+1996,Florida,All students,263.639393601298
+1996,Georgia,All students,262.466020943521
+1996,Hawaii,All students,262.130081659249
+1996,Idaho,All students,�
+1996,Illinois,All students,�
+1996,Indiana,All students,275.529036804764
+1996,Iowa,All students,283.986368602787
+1996,Kansas,All students,�
+1996,Kentucky,All students,266.591684017917
+1996,Louisiana,All students,252.380394698737
+1996,Maine,All students,284.059857433683
+1996,Maryland,All students,269.681431438747
+1996,Massachusetts,All students,277.565642048853
+1996,Michigan,All students,276.866078248355
+1996,Minnesota,All students,284.048944634206
+1996,Mississippi,All students,250.215489081725
+1996,Missouri,All students,273.284887242559
+1996,Montana,All students,283.003869962468
+1996,Nebraska,All students,282.769606861882
+1996,Nevada,All students,�
+1996,New Hampshire,All students,�
+1996,New Jersey,All students,�
+1996,New Mexico,All students,261.970366722903
+1996,New York,All students,270.231486042978
+1996,North Carolina,All students,267.834560282947
+1996,North Dakota,All students,284.222267982804
+1996,Ohio,All students,�
+1996,Oklahoma,All students,�
+1996,Oregon,All students,276.341513193468
+1996,Pennsylvania,All students,�
+1996,Rhode Island,All students,268.877308125052
+1996,South Carolina,All students,260.77544755056
+1996,South Dakota,All students,�
+1996,Tennessee,All students,263.118935026706
+1996,Texas,All students,270.1995775601
+1996,Utah,All students,276.77310580851
+1996,Vermont,All students,279.253243011267
+1996,Virginia,All students,269.754404714393
+1996,Washington,All students,276.117119563268
+1996,West Virginia,All students,264.865205444032
+1996,Wisconsin,All students,282.848741719953
+1996,Wyoming,All students,274.778946978667
+1992,Alabama,All students,252.18752241295
+1992,Alaska,All students,�
+1992,Arizona,All students,265.366277794427
+1992,Arkansas,All students,256.312090419091
+1992,California,All students,260.89224682207
+1992,Colorado,All students,272.398432913929
+1992,Connecticut,All students,273.739344572132
+1992,Delaware,All students,262.868585398892
+1992,District of Columbia,All students,234.924621328025
+1992,Florida,All students,259.908848182301
+1992,Georgia,All students,259.359433593101
+1992,Hawaii,All students,257.410887409173
+1992,Idaho,All students,275.09029414145
+1992,Illinois,All students,�
+1992,Indiana,All students,270.098943937619
+1992,Iowa,All students,283.360009038918
+1992,Kansas,All students,�
+1992,Kentucky,All students,262.241281641376
+1992,Louisiana,All students,249.98392592402
+1992,Maine,All students,278.635384117375
+1992,Maryland,All students,264.82549311365
+1992,Massachusetts,All students,272.783201271176
+1992,Michigan,All students,267.353194329414
+1992,Minnesota,All students,282.392204641658
+1992,Mississippi,All students,246.458035433033
+1992,Missouri,All students,271.131544740125
+1992,Montana,All students,�
+1992,Nebraska,All students,277.654523381042
+1992,Nevada,All students,�
+1992,New Hampshire,All students,278.216325585348
+1992,New Jersey,All students,271.905561192357
+1992,New Mexico,All students,259.606717651222
+1992,New York,All students,266.422300096356
+1992,North Carolina,All students,258.405374807984
+1992,North Dakota,All students,283.213074712775
+1992,Ohio,All students,268.124197827471
+1992,Oklahoma,All students,268.131989632929
+1992,Oregon,All students,�
+1992,Pennsylvania,All students,271.378438779246
+1992,Rhode Island,All students,265.907109115823
+1992,South Carolina,All students,260.77254399911
+1992,South Dakota,All students,�
+1992,Tennessee,All students,258.828048116901
+1992,Texas,All students,264.592828381905
+1992,Utah,All students,274.343177142075
+1992,Vermont,All students,�
+1992,Virginia,All students,267.863726281842
+1992,Washington,All students,�
+1992,West Virginia,All students,259.086448391919
+1992,Wisconsin,All students,277.879134613647
+1992,Wyoming,All students,275.080076053804
+1990,Alabama,All students,252.863659941877
+1990,Alaska,All students,�
+1990,Arizona,All students,259.590067588212
+1990,Arkansas,All students,256.213990069438
+1990,California,All students,256.324820109223
+1990,Colorado,All students,267.366289884072
+1990,Connecticut,All students,269.86641896965
+1990,Delaware,All students,260.696858717319
+1990,District of Columbia,All students,231.366196651827
+1990,Florida,All students,255.318428709044
+1990,Georgia,All students,258.849663447908
+1990,Hawaii,All students,251.021316528152
+1990,Idaho,All students,271.44977262326
+1990,Illinois,All students,260.551434334685
+1990,Indiana,All students,267.265914915861
+1990,Iowa,All students,277.96856952118
+1990,Kansas,All students,�
+1990,Kentucky,All students,257.097205859974
+1990,Louisiana,All students,246.442552990899
+1990,Maine,All students,�
+1990,Maryland,All students,260.765590209676
+1990,Massachusetts,All students,�
+1990,Michigan,All students,264.398378104696
+1990,Minnesota,All students,275.391078977074
+1990,Mississippi,All students,�
+1990,Missouri,All students,�
+1990,Montana,All students,280.497342352668
+1990,Nebraska,All students,275.673962105345
+1990,Nevada,All students,�
+1990,New Hampshire,All students,273.147248796745
+1990,New Jersey,All students,269.664075949166
+1990,New Mexico,All students,256.422988469222
+1990,New York,All students,260.795812629884
+1990,North Carolina,All students,250.348487219657
+1990,North Dakota,All students,281.100428162171
+1990,Ohio,All students,263.974499317898
+1990,Oklahoma,All students,263.178474756633
+1990,Oregon,All students,271.36249421322
+1990,Pennsylvania,All students,266.363944697031
+1990,Rhode Island,All students,260.040897221955
+1990,South Carolina,All students,�
+1990,South Dakota,All students,�
+1990,Tennessee,All students,�
+1990,Texas,All students,258.189986920895
+1990,Utah,All students,�
+1990,Vermont,All students,�
+1990,Virginia,All students,264.273011342894
+1990,Washington,All students,�
+1990,West Virginia,All students,255.899060067677
+1990,Wisconsin,All students,274.487372277466
+1990,Wyoming,All students,272.147965478912
